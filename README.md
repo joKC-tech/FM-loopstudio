@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/joKC-tech/FM-loopstudio)
-- Live Site URL: [Live](hhttps://jokc-tech.github.io/FM-loopstudio)
+- Live Site URL: [Live](https://jokc-tech.github.io/FM-loopstudio)
 
 ## My process
 
