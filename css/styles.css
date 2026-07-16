@@ -34,7 +34,7 @@ h1, h2, h3 {
 }
 
 .c-header {
-  background-image: url("../../images/mobile/image-hero.jpg");
+  background-image: url("../images/mobile/image-hero.jpg");
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ h1, h2, h3 {
 }
 @media (min-width: 37.5rem) {
   .c-header {
-    background-image: url("../../images/desktop/image-hero.jpg");
+    background-image: url("../images/desktop/image-hero.jpg");
     background-size: cover;
   }
 }
@@ -126,6 +126,7 @@ h1, h2, h3 {
     justify-content: flex-end;
     gap: 1.5rem;
     width: 100%;
+    list-style: none;
   }
 }
 
@@ -135,7 +136,6 @@ h1, h2, h3 {
   color: var(--White);
   text-transform: uppercase;
   font-weight: 300;
-  list-style: none;
   font-size: 2rem;
   padding: 0.5em;
 }
