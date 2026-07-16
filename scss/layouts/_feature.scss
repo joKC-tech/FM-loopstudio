@@ -1,0 +1,55 @@
+@use '../utils' as u;
+
+.l-main { 
+    display: flex;
+    flex-direction: column;
+    padding-block: 3rem;
+}
+
+.c-feature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding-block: 2rem;
+}
+
+.c-feature__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.c-feature__h2 {
+    font-size: clamp(2rem, 1.8239rem + 0.7512vw, 2.5rem);
+}
+
+.c-feature__p { 
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 0.9375rem;
+}
+
+
+
+@include u.breakpoint(medium){
+    .c-feature {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+
+    .c-feature__img img{ 
+        width: 130%;
+    }
+    .c-feature__content {
+        max-width: 50%;
+        background-color: var(--White);
+        z-index: 1;
+        padding: 5rem;
+        padding-block-end: 0;
+        text-align: left;
+
+    }
+
+}   

@@ -1,0 +1,83 @@
+@use '../utils' as u;
+
+.c-portfolio {
+    padding-block: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    @include u.breakpoint(medium){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
+
+.l-portfolio { 
+    display: flex; 
+    flex-direction: column;
+    gap: 5vw;
+    @include u.breakpoint(medium){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+        order: 3;
+        margin: 0 auto;
+    }
+
+}
+
+.c-portfolio__h2 { 
+    font-size: clamp(2rem, 1.8239rem + 0.7512vw, 2.5rem);
+    text-align: center;
+    @include u.breakpoint(medium){
+        order: 1;
+    }
+
+}
+
+.c-portfolio__item-wrapper {
+    position: relative;
+
+
+    &:hover {
+        &.c-portfolio__item-wrapper img {
+            opacity: .4;
+        };
+
+        .c-portfolio__item-h3 {
+            color: var(--Black);
+
+
+        }
+    }
+}
+
+.c-portfolio__item-h3 { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: var(--White);
+    font-size: 1.5rem;
+    padding: 1em;
+
+  
+}
+
+.c-portfolio__see-all-btn { 
+    text-align: center ;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    padding: 1.2em 3em 1em 3em;
+    border: 2px solid var(--Black);
+    align-self: center;
+    cursor: pointer;
+    @include u.breakpoint(medium){
+        order: 2;
+        
+    }
+    &:hover {
+        background-color: var(--Black);
+        color: var(--White)
+    }
+}

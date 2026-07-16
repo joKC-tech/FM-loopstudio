@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="./main.js"></script>
+
+</head>
+<body>
+  <header class="c-header">
+    <div class="l-max-width">
+      <nav class="c-header__nav">
+        <div class="l-flex-space-btwn">
+          <a class="c-header__logo" href="/" aria-label="homepage">
+            <img src="./images/logo.svg" alt="Loop studios" />
+          </a>
+          <button id="menu-btn" class="c-header__menu-btn mob-only" type="button" aria-label="open the menu" aria-expanded="false" aria-haspopup="true" aria-controls="menu-container">
+            <img class="c-header__open-close-icon" src="./images/icon-hamburger.svg" alt="" >
+          </button>
+        </div>
+        <div id="menu-container" class="l-collapsable-menu is-closed">
+          <ul class="c-header__main-nav">
+            <a href="#" class="c-header__nav-link"><li>About</li></a>
+            <a href="#" class="c-header__nav-link"><li>Careers</li></a>
+            <a href="#" class="c-header__nav-link"><li>Events</li></a>
+            <a href="#" class="c-header__nav-link"><li>Products</li></a>
+            <a href="#" class="c-header__nav-link"><li>Support</li></a>
+          </ul>
+        </div>
+      </nav>
+      <h1 class="c-header__h1">Immersive experiences that deliver</h1>
+        </header>
+    </div>
+  <main>
+    <div class="l-max-width l-main">
+      <section class="c-feature">
+        <picture class="c-feature__img">
+          <source srcset="./images/desktop/image-interactive.jpg" media="(width >= 37.5rem)" />
+          <img src="./images/mobile/image-interactive.jpg" alt="a man wearing VR goggles"/>
+        </picture>
+        <div class="c-feature__content">
+          <h2 class="c-feature__h2">The leader in interactive VR</h2>
+          <p class="c-feature__p">
+              Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+          </p>
+        </div>
+
+      
+      </section>
+      <section class="c-portfolio">
+        <h2 class="c-portfolio__h2">Our creations</h2>
+      
+      <div class="l-portfolio">
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-deep-earth.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-deep-earth.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">Deep <br>earth</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-night-arcade.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-night-arcade.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">Night <br>arcade</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-soccer-team.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-soccer-team.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">Soccer <br>team VR</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-grid.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-grid.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">The <br>grid</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-from-above.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-from-above.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">From up <br>above VR</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-pocket-borealis.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-pocket-borealis.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">Pocket <br>borealis</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-curiosity.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-curiosity.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">The <br>curiosity</h3>
+            </picture>
+          </div>
+        </a>
+
+        <a class="c-portfolio__item" href="#">
+          <div class="c-portfolio__item-wrapper">
+            <picture>
+              <source srcset="./images/desktop/image-fisheye.jpg" media="(width >= 37.5rem)"/>
+              <img src="./images/mobile/image-fisheye.jpg" alt=""/>
+              <h3 class="c-portfolio__item-h3">Make it <br>fisheye</h3>
+            </picture>
+          </div>
+        </a>
+      </div>
+      <a class="c-portfolio__see-all-btn">See all</a>
+
+    </div>
+    </section>  
+  </main>
+  <footer class="c-footer">
+    <div class="l-max-width">
+      <nav class="c-footer__nav">
+        <a class="c-footer__logo" href="/" aria-label="homepage">
+          <img src="./images/logo.svg" alt="Loop studios" />
+        </a>
+        <ul class="c-footer__main-nav">
+          <a href="#" class="c-footer__nav-link"><li>About</li></a>
+          <a href="#" class="c-footer__nav-link"><li>Careers</li></a>
+          <a href="#" class="c-footer__nav-link"><li>Events</li></a>
+          <a href="#" class="c-footer__nav-link"><li>Products</li></a>
+          <a href="#" class="c-footer__nav-link"><li>Support</li></a>
+        </ul>
+        <ul class="c-footer__social-nav">
+          <a href="#" class="c-footer__social-link" aria-label="Facebook"><li><img src="./images/icon-facebook.svg" alt=""></li></a>
+          <a href="#" class="c-footer__social-link" aria-label="X"><li><img src="./images/icon-twitter.svg" alt=""></li></a>
+          <a href="#" class="c-footer__social-link" aria-label="Pinterest"><li><img src="./images/icon-pinterest.svg" alt=""></li></a>
+          <a href="#" class="c-footer__social-link" aria-label="Instagram"><li><img src="./images/icon-instagram.svg" alt=""></li></a>
+        </ul>
+        <p class="c-footer__tac"><small>© 2021 Loopstudios. All rights reserved.</small></p>
+      </nav>
+     
+
+    </div>
+       
+  </footer>
+
+
+
+</body>
+</html>

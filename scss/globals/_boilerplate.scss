@@ -1,0 +1,40 @@
+@use '../utils' as u;
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: u.$page-font;
+}
+
+
+
+img { 
+    width: 100%;
+}
+
+.l-max-width { 
+    width: 90%;
+    max-width: 62.5rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+    
+// @include u.breakpoint(medium){
+//     .mob-only { 
+//         display: none;
+//     }
+
+// }
